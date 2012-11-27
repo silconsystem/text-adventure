@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1354018689 source:/home/ubuntu/Documents/text-adventure/enemy.cpp
+	"enemy.h"
+	"game.h"
+
+1354018689 /home/ubuntu/Documents/text-adventure/enemy.h
+	<string>
+	<cstdlib>
+	<time.h>
+	<iostream>
+
+1354018689 /home/ubuntu/Documents/text-adventure/game.h
+	<iostream>
+	"player.h"
+	"world.h"
+	<vector>
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
+1354018689 /home/ubuntu/Documents/text-adventure/player.h
+	<iostream>
+	<sstream>
+	"world.h"
+	"room.h"
+	"enemy.h"
+	"item.h"
+
+1354018689 /home/ubuntu/Documents/text-adventure/world.h
+	"room.h"
+	<vector>
+
+1354018689 /home/ubuntu/Documents/text-adventure/room.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string>
+	"enemy.h"
+
+1354018689 /home/ubuntu/Documents/text-adventure/item.h
+
+1354018689 source:/home/ubuntu/Documents/text-adventure/game.cpp
+	"game.h"
+
+1354018689 source:/home/ubuntu/Documents/text-adventure/item.cpp
+	"item.h"
+

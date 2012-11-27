@@ -17,22 +17,11 @@ using namespace std;
 
 int main()
 {
-    // TODO: welcome sequence to be moved into function
-    string name;
-    cout << "What's your name ?" << endl;
-    cin >> name;
+    input uData;
+    uData.userName();
+    uData.userLocation();
 
-    // Instructions and welcome message
-    cout << "Welcome to the console adventure " << name << "!!" << endl;
-    cout << "\n";
-    cout << "The program accepts the following commands:\n";
-    cout << "n(orth), w(est), e(ast), s(outh) to move" << endl;
-    cout << "stats for your status" << endl;
-    cout << "f(ight), flight, run for combat" << endl;
-    cout << "r(est) to rest and restore" << endl;
-    cout << "q(uit) to end the game" << endl;
-    cout << "have fun !!" << endl;
-    cout << "\n";
+    cout << "Let the adventure begin !!" << endl << endl;
 
     // Main loop for the game.
     while ( Game::GetInstance().IsRunning() )

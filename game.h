@@ -2,14 +2,16 @@
 #define D_GAME_H
 
 #include <iostream>
+#include <vector>
+#include <cstdio>
+#include <string>
+#include <cctype>
+#include <string>
+#include <sstream>
 
 #include "player.h"
 #include "world.h"
-
-#include <vector>
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
+#include "input.h"
 
 // Game is a singleton because there's only one!
 
